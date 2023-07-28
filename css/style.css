@@ -28,7 +28,6 @@ box-sizing: border-box;
     width: 100%;
     background-color: #261b19;
 }
-
 .titulos{
     font-family: 'Mulish', normal;
 }
@@ -84,7 +83,6 @@ footer{
     background-color: #261b19;
     color: #eacaae;
 }
-
 .index-nosotros,.info-noticia{
     display: flex;
     flex-direction: column;
