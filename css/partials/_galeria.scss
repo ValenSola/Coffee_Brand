@@ -1,0 +1,130 @@
+@include desktop{
+    .grid{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "item1 item2 item2 item3 item3 item4"
+        "item1 item5 item5 item6 item6 item4"
+        "item7 item7 item7 item8 item8 item8"
+        "item9 item9 item9 item9 item9 item9";
+        gap: 1rem;
+        .grid_item{
+            border-radius: 1rem;
+            background-size: cover;
+            background-position: center center;
+            padding: 2rem;
+        }
+        .grid_item1{
+            grid-area: item1;
+            background-image: url(../img/item1.jpg);
+            width: 250px;
+        }
+        .grid_item2{
+            grid-area: item2;
+            background-image: url(../img/item2.jpg);
+        }
+        .grid_item3{
+            grid-area: item3;
+            background-image: url(../img/item3.jpg);
+        }
+        .grid_item4{
+            grid-area: item4;
+            background-image: url(../img/item4.jpg);
+            width: 250px;
+        }
+        .grid_item5{
+            grid-area: item5;
+            background-image: url(../img/item5.jpg);
+        }
+        .grid_item6{
+            grid-area: item6;
+            background-image: url(../img/item6.jpg);
+        }
+        .grid_item7{
+            grid-area: item7;
+            background-image: url(../img/item7.jpg);
+            height: 200px;
+            width: 100%;
+        }
+        .grid_item8{
+            grid-area: item8;
+            background-image: url(../img/item8.jpg);
+            height: 200px;
+            width: 100%;
+        }
+        .grid_item9{
+            grid-area: item9;
+            background-image: url(../img/item9.jpg);
+            width: 100%;
+            height: 100%;
+            grid-column: -7/-1;
+        }
+    }
+}
+@include mobile{
+    .grid{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "item1 item1"
+        "item2 item3"
+        "item4 item5"
+        "item6 item7"
+        "item8 item9";
+        gap: 1rem;
+        .grid_item{
+            border-radius: 1rem;
+            background-size: cover;
+            background-position: center center;
+            padding: 2rem;
+        }
+        .grid_item1{
+            grid-area: item7;
+            background-image: url(../img/item1.jpg);
+            
+        }
+        .grid_item2{
+            grid-area: item9;
+            background-image: url(../img/item2.jpg);
+        }
+        .grid_item3{
+            grid-area: item8;
+            background-image: url(../img/item3.jpg);
+        }
+        .grid_item4{
+            grid-area: item3;
+            background-image: url(../img/item4.jpg);
+            
+        }
+        .grid_item5{
+            grid-area: item2;
+            background-image: url(../img/item5.jpg);
+        }
+        .grid_item6{
+            grid-area: item4;
+            background-image: url(../img/item6.jpg);
+        }
+        .grid_item7{
+            grid-area: item6;
+            background-image: url(../img/item7.jpg);
+            height: 200px;
+            width: 100%;
+        }
+        .grid_item8{
+            grid-area: item5;
+            background-image: url(../img/item8.jpg);
+            height: 200px;
+            width: 100%;
+        }
+        .grid_item9{
+            grid-area: item1;
+            background-image: url(../img/item9.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

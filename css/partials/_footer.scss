@@ -1,0 +1,41 @@
+footer{
+    background-color: $colorOscuro;
+    color: $colorClaro;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    .logo-footer{
+        border-radius: 50%;
+        width: 5rem;
+    }
+    .icons-copy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icons {
+            display: flex;
+            text-align: center;
+            gap: 1rem;
+            font-size: 1rem;
+            padding-bottom: 0.5rem;
+             cursor: pointer;
+        }
+        .copy{
+            font-size: .75rem;
+        }
+    }
+}
+@include desktop{
+    .copy-desktop_catalogo{
+        margin-top: 5rem;
+    }
+    .copy-desktop{
+        padding-top:1rem;
+        .copy-eslogan{
+            text-decoration: overline;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+form{
+    width: 80%;
+    margin: auto;
+    background-color: $colorOscuro;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    #contacto-titulo{
+        color: $colorClaro;
+        text-align: center;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 1rem;
+        box-sizing: border-box;
+        font-size: 18px;
+        border: none;
+        background-color: #130d0c;
+        color: $colorClaro;
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 1rem;
+        box-sizing: border-box;
+        font-size: 18px;
+        border: none;
+        background-color: #130d0c;
+        color: $colorClaro;
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #boton{
+        background-color: #130d0c;
+        color: $colorClaro;
+        padding: 20px;
+    }
+}

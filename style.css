@@ -265,7 +265,7 @@ textarea{
         margin: 0;
         text-align: center;
     }
-    .index-noticia p{
+     p{
         text-align: justify;
         margin: 1rem;
         border: #261b19;
@@ -381,7 +381,6 @@ textarea{
         display: flex;
         flex-direction: column;
         flex:1;
-        
         gap: 2rem;
     }
     .noticia-ult{
@@ -612,7 +611,6 @@ textarea{
         display: flex;
         flex-direction: column;
         flex:1;
-        
         gap: 2rem;
     }
     .noticia-ult{

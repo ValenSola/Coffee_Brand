@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.textos{
+        font-family: $fontTexto;
+    }
+.subtitulos{
+        text-align: center;
+        background-color: $colorOscuro;
+        color:$colorClaro;
+        margin:0;
+    }
+.titulos{
+        text-align: center;
+        background-color: $colorOscuro;
+        color: $colorClaro;
+        font-family: $fontTitulo;
+    }
+.background{
+        background-color: $colorClaro;
+    }
+.disabled{
+        display: none;
+    }
+@include desktop{
+    .mobile-header{
+        display: none;
+    }
+    .copy-mobile{
+        display: none;
+    }
+    .menuitem.active{
+        text-decoration: underline double;
+        a {
+        text-decoration: underline double;
+        }
+        .menuitem a:hover {
+        text-decoration: underline double;
+        }
+    }
+    a,
+    .menuitem a:hover {
+        text-decoration: underline double;
+    }
+}
+@include mobile{
+    .copy-desktop{
+        display: none;
+    }
+    .desktop-menu{
+        display: none;
+    }
+}

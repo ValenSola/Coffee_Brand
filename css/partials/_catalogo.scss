@@ -1,0 +1,79 @@
+@include mobile{
+    .productos-catalogo{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0%;
+        .producto{
+            background-color: $colorOscuro;
+            color: $colorClaro;
+            .card-title{
+                text-align: center;
+                font-family:$fontTitulo;
+                padding: .5rem;
+            }
+            .card-text{
+                padding: 1rem;
+                padding-top: 0;
+            }
+            .buy-icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: large;
+                gap: 1rem;
+                margin-right: 1rem;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@include desktop{
+    .productos-catalogo{
+        display: flex;
+        flex-direction: row;
+        color: $colorClaro;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 32px;
+        gap: 2rem;
+        .cards{
+            flex-direction: row;
+            flex: 1;
+            background-color: $colorOscuro;
+            align-items: center;
+            align-content: center;
+            width: 15rem;
+            height: 26rem;
+            border-radius: 1rem;
+            img{
+                max-width: 100%;
+                border-radius: 1rem;
+            }
+            .card-title{
+                text-align: center;
+                gap: 1rem;
+            }
+            .card-text{
+                margin-inline: 1rem;
+            }
+            .buy-icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: large;
+                gap: 1rem;
+                margin-right: 1rem;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+}  

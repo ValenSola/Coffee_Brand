@@ -1,0 +1,95 @@
+@include mobile {
+    .mobile-header{
+        background-color: $colorOscuro;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        .mobile-logo{
+            width: 5rem;
+            border-radius: 50%;
+        }
+        .open-menu{
+         border: 0;
+         background-color: transparent;
+         color: $colorClaro;
+         font-size: 1.5rem;
+         cursor: pointer;
+         padding: 1.5rem 1.5rem;
+        }
+    }
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        background-color: $colorOscuro;
+        position: fixed;
+        inset: 0;
+        .mobile-menu_header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .mobile-logo{
+                width: 5rem;
+                border-radius: 50%;
+            }
+            .close-menu{
+                border: 0;
+                background-color: transparent;
+                color: $colorClaro;
+                font-size: 1.5rem;
+                cursor: pointer;
+                padding: 1.5rem 1.5rem;
+            }
+        }
+        .mobile-menu_nav{
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            ul{
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                li a{
+                    color: $colorClaro;
+                    font-size: 2rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@include desktop{
+    .desktop-menu{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        justify-content: center;
+        flex: 1 1 0;
+        align-items: center;
+        background-color: $colorOscuro;
+        color: $colorClaro;
+        list-style-type: none;
+        .menuitem{
+            font-size: large;
+            a{
+                margin: 20px 0px;
+                display: inline;
+                color:$colorClaro;
+                text-decoration: none;
+                align-items: center;
+            }
+            .active{
+                text-decoration: underline double;
+                a,a:hover {
+                text-decoration: underline double;
+                }
+            }
+        }
+        .menuimg {
+            border-radius: 50%;
+            width: 5rem;
+            height: 5rem;
+            cursor: pointer;
+        }
+     }
+}
