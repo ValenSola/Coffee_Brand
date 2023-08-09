@@ -22,26 +22,19 @@
         background-color: $colorClaro;
     }
 .disabled{
-        display: none;
-    }
+    display: none;
+}
 @include desktop{
     .mobile-header{
+        display: none;
+    }
+    .mobile-menu{
         display: none;
     }
     .copy-mobile{
         display: none;
     }
-    .menuitem.active{
-        text-decoration: underline double;
-        a {
-        text-decoration: underline double;
-        }
-        .menuitem a:hover {
-        text-decoration: underline double;
-        }
-    }
-    a,
-    .menuitem a:hover {
+    .menuitem:hover {
         text-decoration: underline double;
     }
 }
@@ -51,5 +44,18 @@
     }
     .desktop-menu{
         display: none;
+    }
+    .mobile-menu{
+        visibility: hidden;
+        opacity: 0;
+        z-index: 1;
+    }
+    .mobile-menu.visible {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+        main{
+            display: none;
+        }
     }
 }

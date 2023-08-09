@@ -36,23 +36,13 @@
   .mobile-header {
     display: none;
   }
+  .mobile-menu {
+    display: none;
+  }
   .copy-mobile {
     display: none;
   }
-  .menuitem.active {
-    -webkit-text-decoration: underline double;
-            text-decoration: underline double;
-  }
-  .menuitem.active a {
-    -webkit-text-decoration: underline double;
-            text-decoration: underline double;
-  }
-  .menuitem.active .menuitem a:hover {
-    -webkit-text-decoration: underline double;
-            text-decoration: underline double;
-  }
-  a,
-  .menuitem a:hover {
+  .menuitem:hover {
     -webkit-text-decoration: underline double;
             text-decoration: underline double;
   }
@@ -62,6 +52,19 @@
     display: none;
   }
   .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+  }
+  .mobile-menu.visible {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+  }
+  .mobile-menu.visible main {
     display: none;
   }
 }
@@ -301,6 +304,18 @@ footer .icons-copy .copy {
     padding: 1rem;
   }
 }
+.fade-in {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 800px) {
   .productos-catalogo {
     display: flex;
@@ -310,6 +325,7 @@ footer .icons-copy .copy {
     justify-content: center;
     gap: 1rem;
     margin: 1rem 0%;
+    z-index: 0;
   }
   .productos-catalogo .producto {
     background-color: #261b19;
@@ -394,6 +410,10 @@ footer .icons-copy .copy {
     background-size: cover;
     background-position: center center;
     padding: 2rem;
+    transition: transform 1s;
+  }
+  .grid .grid_item:hover {
+    transform: scale(1.1);
   }
   .grid .grid_item1 {
     grid-area: item1;
@@ -499,6 +519,18 @@ footer .icons-copy .copy {
     height: 100%;
   }
 }
+.fade-in {
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .info-noticia {
   display: flex;
   flex-direction: column;
@@ -597,6 +629,18 @@ footer .icons-copy .copy {
   .noticias-int .noticia-int iframe {
     width: 300px;
     padding: 1rem;
+  }
+}
+.fade-in {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .index-noticia {

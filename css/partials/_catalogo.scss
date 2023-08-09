@@ -7,6 +7,7 @@
         justify-content: center;
         gap: 1rem;
         margin: 1rem 0%;
+        z-index: 0;
         .producto{
             background-color: $colorOscuro;
             color: $colorClaro;
@@ -29,7 +30,7 @@
                 margin-left: 1rem;
                 margin-bottom: 1rem;
                 cursor: pointer;
-            }
+            }  
         }
     }
 }

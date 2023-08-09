@@ -1,11 +1,11 @@
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
 
-let btnOpenMenu = document.querySelector("#open-menu");
-let btnCloseMenu = document.querySelector("#close-menu");
-let menu = document.querySelector("#mobile-menu");
-
-btnOpenMenu.addEventListener("click", () => {
-    menu.classList.remove("disabled");
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
 })
-btnCloseMenu.addEventListener("click", () => {
-    menu.classList.add("disabled");
+
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
 })
