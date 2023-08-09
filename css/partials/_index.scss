@@ -36,7 +36,11 @@
     .noticia-ult{
         display: flex;
         flex-direction: column;
+        flex:1;
+        gap: 2rem;
         .text-ult{
+            display: flex;
+            flex-direction: column;
             padding: 1rem;
             align-content: center;
         }
