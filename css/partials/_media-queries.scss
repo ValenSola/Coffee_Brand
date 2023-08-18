@@ -3,8 +3,28 @@
         @content;
     }
 }
+@mixin mobile-noticias{
+    @media screen and (max-width: 1344px) {
+        @content;
+    }
+}
+@mixin desktop-noticias{
+    @media screen and (min-width: 1344px) {
+        @content;
+    }
+}
 @mixin desktop {
     @media screen and (min-width: 1006px) {
+        @content;
+    }
+}
+@mixin mobile-catalogo{
+    @media screen and (max-width: 1056px) {
+        @content;
+    }
+}
+@mixin desktop-catalogo{
+    @media screen and (min-width: 1056px) {
         @content;
     }
 }

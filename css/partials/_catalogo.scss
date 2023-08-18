@@ -1,4 +1,4 @@
-@include mobile{
+@include mobile-catalogo{
     .productos-catalogo{
         display: flex;
         flex-direction: column;
@@ -40,7 +40,7 @@
         }
     }
 }
-@include desktop{
+@include desktop-catalogo{
     .productos-catalogo{
         display: flex;
         flex-direction: row;
