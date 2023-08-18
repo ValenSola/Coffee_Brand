@@ -19,12 +19,12 @@
     }
 }
 @mixin mobile-catalogo{
-    @media screen and (max-width: 1056px) {
+    @media screen and (max-width: 1058px) {
         @content;
     }
 }
 @mixin desktop-catalogo{
-    @media screen and (min-width: 1056px) {
+    @media screen and (min-width: 1058px) {
         @content;
     }
 }
