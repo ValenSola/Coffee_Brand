@@ -11,11 +11,11 @@
         .producto{
             background-color: $colorOscuro;
             color: $colorClaro;
-            .carousel{
-                z-index: 1;
-                button{
-                    z-index: 2;
-                }
+            .carousel-control-next{
+                z-index: 0;
+            }
+            .carousel-control-prev{
+                z-index: 0;
             }
             .card-title{
                 text-align: center;

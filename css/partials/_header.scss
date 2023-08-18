@@ -23,6 +23,7 @@
         background-color: $colorOscuro;
         position: fixed;
         inset: 0;
+        z-index: 1;
         .mobile-menu_header{
             display: flex;
             justify-content: space-between;
@@ -42,7 +43,7 @@
         }
         .mobile-menu_nav{
             position: absolute;
-            z-index: 3;
+            z-index: 1;
             flex-grow: 1;
             display: flex;
             align-items: center;
@@ -58,6 +59,12 @@
                 }
             }
         }
+    }
+}
+@include mobile-catalogo {
+    .mobile-menu_nav{
+            position: absolute;
+            z-index: 1;
     }
 }
 @include desktop{

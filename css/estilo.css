@@ -108,6 +108,7 @@ body::-moz-selection {
     background-color: #261b19;
     position: fixed;
     inset: 0;
+    z-index: 1;
   }
   .mobile-menu .mobile-menu_header {
     display: flex;
@@ -130,6 +131,7 @@ body::-moz-selection {
     flex-grow: 1;
     display: flex;
     align-items: center;
+    z-index: 1;
   }
   .mobile-menu .mobile-menu_nav ul {
     list-style-type: none;
