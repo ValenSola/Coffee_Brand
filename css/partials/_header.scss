@@ -41,6 +41,8 @@
             }
         }
         .mobile-menu_nav{
+            position: absolute;
+            z-index: 3;
             flex-grow: 1;
             display: flex;
             align-items: center;

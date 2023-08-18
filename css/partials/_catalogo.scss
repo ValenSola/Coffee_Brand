@@ -11,6 +11,12 @@
         .producto{
             background-color: $colorOscuro;
             color: $colorClaro;
+            .carousel{
+                z-index: 1;
+                button{
+                    z-index: 2;
+                }
+            }
             .card-title{
                 text-align: center;
                 font-family:$fontTitulo;
@@ -51,7 +57,7 @@
             align-items: center;
             align-content: center;
             width: 15rem;
-            : 26rem;
+            height: 26rem;
             border-radius: 1rem;
             img{
                 max-width: 100%;

@@ -47,6 +47,10 @@ body::-moz-selection {
     }
 }
 @include mobile{
+    .textos{
+        font-family: $fontTexto;
+        font-size: large;
+    }
     .copy-desktop{
         display: none;
     }
