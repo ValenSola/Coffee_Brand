@@ -360,11 +360,14 @@ footer .icons-copy .copy {
     justify-content: center;
     gap: 1rem;
     margin: 1rem 0%;
-    z-index: 0;
+    
   }
   .productos-catalogo .producto {
     background-color: #261b19;
     color: #eacaae;
+  }
+  .productos-catalogo .producto .flecha{
+    z-index: 0;
   }
   .productos-catalogo .producto .card-title {
     text-align: center;
