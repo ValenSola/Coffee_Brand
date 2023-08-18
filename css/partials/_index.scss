@@ -1,4 +1,10 @@
 @include mobile{
+    .desktop-menu{display: none;
+    }
+    .mobile-header{
+        display: flex;
+        flex-direction: row;
+    }
     .index-nosotros{
         display: flex;
         flex-direction: column;
@@ -14,7 +20,7 @@
             background-color: $colorOscuro;
             color: $colorClaro;
             width: 50rem;
-            height: 15rem;
+            min-height: 15rem;
             text-align: center;
             border: 2px solid $colorClaro;
             .index-titulo{
@@ -47,10 +53,17 @@
         .img-ult{ 
             img{
             width: 100%;
-            height: 400px;
+            min-height: 400px;
             padding: 1rem;
             }
         }
+    }
+    .index-noticia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        position: relative;
     }
 }
 @include desktop{
@@ -69,7 +82,7 @@
         background-color: $colorOscuro;
         color: $colorClaro;
         width: 100%;
-        height: 15rem;
+        min-height: 15rem;
         text-align: center;
         border: 2px solid $colorClaro;
         .index-titulo{
@@ -97,7 +110,7 @@
     .img-ult {
         img{
         width: 800px;
-        height: 400px;
+        min-height: 400px;
         padding: 1rem;
         }
     }

@@ -1,4 +1,6 @@
 footer{
+    position: absolute;
+    bottom: 0;
     background-color: $colorOscuro;
     color: $colorClaro;
     gap: 1rem;
@@ -38,4 +40,4 @@ footer{
             text-decoration: overline;
         }
     }
-}
+  }
