@@ -32,6 +32,21 @@
   display: none;
 }
 
+body::-moz-selection {
+  background: #261b19;
+  color: #eacaae;
+}
+
+body::selection {
+  background: #261b19;
+  color: #eacaae;
+}
+
+body::-moz-selection {
+  background: #261b19;
+  color: #eacaae;
+}
+
 @media screen and (min-width: 800px) {
   .mobile-header {
     display: none;
