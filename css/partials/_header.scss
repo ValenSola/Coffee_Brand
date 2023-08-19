@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: column;
         background-color: $colorOscuro;
-        position: fixed;
+        position: absolute;
         inset: 0;
         z-index: 1;
         .mobile-menu_header{
@@ -42,7 +42,10 @@
             }
         }
         .mobile-menu_nav{
+
             position: absolute;
+            margin-top: 5rem;
+            margin-bottom: 0;
             z-index: 1;
             flex-grow: 1;
             display: flex;
