@@ -38,12 +38,6 @@
     }
 }
 @include desktop-catalogo{
-    .img-catalogo{
-        width: 100%;
-        min-height: 200px;
-        overflow: hidden;
-        align-self: center;
-    }
     .productos-catalogo{
         display: flex;
         flex-direction: row;
