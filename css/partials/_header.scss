@@ -42,10 +42,7 @@
             }
         }
         .mobile-menu_nav{
-            flex-direction: column;
-            align-content: normal;
-            margin-top: 5rem;
-            padding-top: 5rem;
+            position: absolute;
             z-index: 1;
             flex-grow: 1;
             display: flex;
