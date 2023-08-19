@@ -133,13 +133,16 @@ body::-moz-selection {
     padding: 1.5rem 1.5rem;
   }
   .mobile-menu .mobile-menu_nav {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    top: 0;
+    bottom: 0;
     margin-top: 5rem;
-    margin-bottom: 0;
+    gap: 1rem;
+    position: absolute;
     z-index: 1;
     flex-grow: 1;
-    display: flex;
-    align-items: center;
   }
   .mobile-menu .mobile-menu_nav ul {
     list-style-type: none;
