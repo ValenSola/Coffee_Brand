@@ -55,6 +55,7 @@
             width: 100%;
             min-height: 400px;
             padding: 1rem;
+            overflow: hidden;
             }
         }
     }
@@ -102,7 +103,7 @@
   }
  .noticia-ult{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     .text-ult{
         padding: 1rem;
         align-content: center;

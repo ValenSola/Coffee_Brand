@@ -1,6 +1,7 @@
 footer{
     position: fixed;
-    padding-bottom: 0%;
+    width: 100%;
+    margin-bottom: 0;
     background-color: $colorOscuro;
     color: $colorClaro;
     gap: 1rem;
@@ -8,7 +9,7 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0%;
+    overflow: hidden;
     .logo-footer{
         border-radius: 50%;
         width: 5rem;

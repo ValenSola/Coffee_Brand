@@ -195,7 +195,8 @@ body::-moz-selection {
 }
 footer {
   position: fixed;
-  padding-bottom: 0%;
+  width: 100%;
+  margin-bottom: 0;
   background-color: #261b19;
   color: #eacaae;
   gap: 1rem;
@@ -203,7 +204,7 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 0%;
+  overflow: hidden;
 }
 footer .logo-footer {
   border-radius: 50%;
@@ -295,6 +296,7 @@ footer .icons-copy .copy {
     width: 100%;
     min-height: 400px;
     padding: 1rem;
+    overflow: hidden;
   }
   .index-noticia {
     display: flex;
@@ -340,7 +342,7 @@ footer .icons-copy .copy {
   }
   .noticia-ult {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .noticia-ult .text-ult {
     padding: 1rem;
@@ -395,6 +397,7 @@ footer .icons-copy .copy {
     flex-direction: row;
     justify-content: space-between;
     font-size: large;
+    align-items: center;
     gap: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
