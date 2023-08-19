@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+p {
+  font-size: x-large;
+}
+
 .textos {
   font-family: "Lobster", cursive;
   font-size: xx-large;
