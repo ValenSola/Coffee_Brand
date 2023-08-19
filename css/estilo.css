@@ -407,7 +407,7 @@ footer .icons-copy .copy {
     padding: 0.5rem;
   }
   .productos-catalogo .producto .card-text {
-    font-size: medium;
+    font-size: small;
     padding: 1rem;
     padding-top: 0;
   }
@@ -454,7 +454,7 @@ footer .icons-copy .copy {
     gap: 1rem;
   }
   .productos-catalogo .cards .card-text {
-    font-size: medium;
+    font-size: small;
     margin-inline: 1rem;
   }
   .productos-catalogo .cards .buy-icons {
