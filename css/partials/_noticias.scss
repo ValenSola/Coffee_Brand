@@ -13,6 +13,7 @@
     align-items: center;
     align-content: center;
     margin: 1rem;
+    font-size: x-large;
     }
 }
 @include desktop-noticias{
@@ -29,6 +30,7 @@
             .text-ult{
                 padding: 1rem;
                 align-content: center;
+                font-size: x-large;
             }
             .img-ult{
                 img{
@@ -72,6 +74,7 @@
             .text-ult{
                 padding: 1rem;
                 align-content: center;
+                font-size: x-large;
             }
             .img-ult{ 
                 img{

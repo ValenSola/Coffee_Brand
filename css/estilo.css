@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-p {
-  font-size: x-large;
-}
-
 .textos {
   font-family: "Lobster", cursive;
   font-size: xx-large;
@@ -298,6 +294,7 @@ footer .icons-copy .copy {
     flex-direction: column;
     padding: 1rem;
     align-content: center;
+    font-size: x-large;
   }
   .noticia-ult .img-ult img {
     align-self: center;
@@ -361,6 +358,7 @@ footer .icons-copy .copy {
   .noticia-ult .text-ult {
     padding: 1rem;
     align-content: center;
+    font-size: x-large;
   }
   .noticia-ult .img-ult img {
     width: 100%;
@@ -407,7 +405,6 @@ footer .icons-copy .copy {
     padding: 0.5rem;
   }
   .productos-catalogo .producto .card-text {
-    font-size: small;
     padding: 1rem;
     padding-top: 0;
   }
@@ -454,7 +451,6 @@ footer .icons-copy .copy {
     gap: 1rem;
   }
   .productos-catalogo .cards .card-text {
-    font-size: small;
     margin-inline: 1rem;
   }
   .productos-catalogo .cards .buy-icons {
@@ -621,6 +617,7 @@ footer .icons-copy .copy {
   align-items: center;
   align-content: center;
   margin: 1rem;
+  font-size: x-large;
 }
 
 @media screen and (min-width: 1344px) {
@@ -639,6 +636,7 @@ footer .icons-copy .copy {
   .noticias-ult .noticia-ult .text-ult {
     padding: 1rem;
     align-content: center;
+    font-size: x-large;
   }
   .noticias-ult .noticia-ult .img-ult img {
     width: 800px;
@@ -680,6 +678,7 @@ footer .icons-copy .copy {
   .noticias-ult .noticia-ult .text-ult {
     padding: 1rem;
     align-content: center;
+    font-size: x-large;
   }
   .noticias-ult .noticia-ult .img-ult img {
     width: 100%;
