@@ -36,6 +36,9 @@
             }  
         }
     }
+    footer{
+        bottom: 100%;
+    }
 }
 @include desktop-catalogo{
     .productos-catalogo{
@@ -79,5 +82,8 @@
                 cursor: pointer;
             }
         }
+    }
+    footer{
+        bottom: 100%;
     }
 }  

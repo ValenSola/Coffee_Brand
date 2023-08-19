@@ -420,6 +420,9 @@ footer .icons-copy .copy {
     margin-bottom: 1rem;
     cursor: pointer;
   }
+  footer {
+    bottom: 100%;
+  }
 }
 @media screen and (min-width: 1058px) {
   .productos-catalogo {
@@ -463,6 +466,9 @@ footer .icons-copy .copy {
     margin-left: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
+  }
+  footer {
+    bottom: 100%;
   }
 }
 @media screen and (min-width: 1006px) {
