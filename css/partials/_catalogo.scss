@@ -1,8 +1,4 @@
 @include mobile-catalogo{
-    .img-catalogo{
-        width: 100%;
-        min-height: 400px;
-    }
     .productos-catalogo{
         display: flex;
         flex-direction: column;
@@ -44,7 +40,9 @@
 @include desktop-catalogo{
     .img-catalogo{
         width: 100%;
-        min-height: 400px;
+        min-height: 200px;
+        overflow: hidden;
+        align-self: center;
     }
     .productos-catalogo{
         display: flex;

@@ -133,10 +133,7 @@ body::-moz-selection {
     padding: 1.5rem 1.5rem;
   }
   .mobile-menu .mobile-menu_nav {
-    flex-direction: column;
-    align-content: normal;
-    margin-top: 5rem;
-    padding-top: 5rem;
+    position: absolute;
     z-index: 1;
     flex-grow: 1;
     display: flex;
@@ -202,6 +199,7 @@ footer {
   margin-bottom: 0;
   background-color: #261b19;
   color: #eacaae;
+  margin-top: 5rem;
   gap: 1rem;
   padding: 1rem;
   text-align: center;
@@ -288,6 +286,8 @@ footer .icons-copy .copy {
     flex-direction: column;
     flex: 1;
     gap: 2rem;
+    align-items: center;
+    align-content: center;
   }
   .noticia-ult .text-ult {
     display: flex;
@@ -296,6 +296,10 @@ footer .icons-copy .copy {
     align-content: center;
   }
   .noticia-ult .img-ult img {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 100%;
     min-height: 400px;
     padding: 1rem;
@@ -307,6 +311,7 @@ footer .icons-copy .copy {
     align-items: center;
     align-content: center;
     position: relative;
+    font-size: x-large;
   }
 }
 @media screen and (min-width: 1006px) {
@@ -346,15 +351,21 @@ footer .icons-copy .copy {
   .noticia-ult {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
   .noticia-ult .text-ult {
     padding: 1rem;
     align-content: center;
   }
   .noticia-ult .img-ult img {
-    width: 800px;
+    width: 100%;
     min-height: 400px;
+    justify-content: center;
     padding: 1rem;
+    align-self: center;
+    align-items: center;
+    align-content: center;
   }
 }
 .fade-in {
@@ -409,6 +420,12 @@ footer .icons-copy .copy {
   }
 }
 @media screen and (min-width: 1058px) {
+  .img-catalogo {
+    width: 100%;
+    min-height: 200px;
+    overflow: hidden;
+    align-self: center;
+  }
   .productos-catalogo {
     display: flex;
     flex-direction: row;
