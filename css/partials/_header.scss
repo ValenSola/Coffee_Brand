@@ -25,6 +25,7 @@
         inset: 0;
         z-index: 1;
         .mobile-menu_header{
+            margin-bottom: 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -42,16 +43,13 @@
             }
         }
         .mobile-menu_nav{
-            display: flex;
-            flex-direction: column;
-            padding: 2rem;
-            top: 0;
-            bottom: 0;
-            margin-top: 5rem;
-            gap: 1rem;
             position: absolute;
             z-index: 1;
             flex-grow: 1;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin-top: 400px;
             ul{
                 list-style-type: none;
                 display: flex;
@@ -61,11 +59,11 @@
                     color: $colorClaro;
                     font-size: 2rem;
                     text-decoration: none;
+                    }
                 }
             }
         }
     }
-}
 @include mobile-catalogo {
     .mobile-menu_nav{
             position: absolute;
